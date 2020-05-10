@@ -1,0 +1,100 @@
+[
+	{
+		"image": "Cos(x over y) [sf.1].png",
+		"type": "sf,n",
+		"title": "The Italian design of \\( cos\\left(\\frac{x}{y}\\right) \\)",
+		"body": "The solar, light-hearted chromatic choices of this landscape are juxtaposed against the drama taking place on the right hand side of the piece, where this function's slope field turns from gentle, rolling hills to an unstable, yet predicatble turmoil.",
+		"function": "Math.Cos(x/y)"
+	},
+	{
+		"image": "Cos(x over y) [sf.2].png",
+		"type": "sf,n",
+		"title": "The dramatic folds of \\( cos\\left(\\frac{x}{y}\\right) \\)",
+		"body": "Similar to the majestic, awe-inspiring view of the White Cliffs of Dover seen from the straight of the same name, a section through this function's slope field offers an appreciation of its ebb and flow.",
+		"function": "Math.Cos(x/y)"
+	},
+	{
+		"image": "sin(x)^2cos(x)^2 [raw.1].png",
+		"type": "raw,n",
+		"title": "The sombre domes of \\( sin\\left(x\\right)^2 \\cdot cos\\left(y\\right)^2 \\)",
+		"body": "The artist decided on a muted palette in this blocky representation, thus reinforcing the function's terse, periodical, oppressive nature.",
+		"function": "Math.Sin(x) * Math.Sin(x) * Math.Cos(x) * Math.Cos(x)"
+	},
+	{
+		"image": "sin(x)^2cos(y)^2+3cos(x over 7)sin(y over 5)+4 [sf.1].png",
+		"type": "raw,dn",
+		"title": "An uncomfortable confrontation with the bumps at the top of \\( sin\\left(x\\right)^2 + 3 \\cdot cos\\left(\\frac{x}{7}\\right) \\cdot sin\\left(\\frac{y}{5}\\right) + 4 \\)",
+		"body": "Waves. Waves over waves. This work modulates and distills our daily discomforts and anxieties into an all too organic chromatic, in synch with the intrinsic phobias of the human psyche. Infamously avoided by private collectors, this pixel on screen piece has always been part of public galleries.",
+		"function": "Math.Sin(x) * Math.Sin(x) + 3 * Math.Cos(x/7) * Math.Sin(y/5) + 4"
+	},
+	{
+		"image": "sin(x)+cos(y) raw [sf.1].png",
+		"type": "raw,n",
+		"title": "Sunset overlooking a blocky rendering of the dunes of \\( sin\\left(x\\right) + cos\\left(y\\right) \\)",
+		"body": "Such a simple function, yet so much joy! Such purity should not be diluted; the critic rests.",
+		"function": "Math.Sin(x) + Math.Cos(y)"
+	},
+	{
+		"image": "sin(x)+cos(y) raw [sf.2].png",
+		"type": "raw,n",
+		"title": "A crisp take on a blocky rendering of the dunes of \\( sin\\left(x\\right) + cos\\left(y\\right) \\)",
+		"body": "For once, we don't have to rely on critics for comments. In a rare public interview, the artist has been kind enough to share personal thoughts regarding this particular work: &quot;<i>As my grandpa used to say on the porch back in the day, never judge a function by what it looks like on paper! I used Aerialod's LOD setting to force the blocky look, and added a grid to countour the individual blocks</i>&quot;. Truly inspiring!",
+		"function": "Math.Sin(x) + Math.Cos(y)"
+	},
+	{
+		"image": "sin(x)+cos(y) raw [sf.3].png",
+		"type": "raw,n",
+		"title": "A modernist, minimalist, and deconstructivist close-up of a blocky rendering of \\( sin\\left(x\\right) + cos\\left(y\\right) \\)",
+		"body": "With a tongue in cheek nod to the function's inherent simplicity, the artist reminds us about essential values, and why less is indeed more.",
+		"function": "Math.Sin(x) + Math.Cos(y)"
+	},
+	{
+		"image": "x over sin(y over 5) [sf.1].png",
+		"type": "sf,n",
+		"title": "A daring, neon-colored representation of the repeating complexity in \\( \\frac{x}{sin\\left(\\frac{y}{5}\\right)} \\)",
+		"body": "Obviously hinting at the flamboyant 80s, the artist reminds us in a none-too-subtle manner that, for all its creativity, the decade was peppered with fakes and copycats. The technique employed in this piece is simple but effective: use a linear modifier on one direction (x), and a crazy periodic function on the other (y).",
+		"function": "x / Math.Sin(y/5)"
+	},
+	{
+		"image": "x over y [sf.1].png",
+		"type": "sf,n",
+		"title": "The satifying dynamic between symmetry and asymmetry in the slope field of \\( \\frac{x}{y} \\)",
+		"body": "Who could've guessed there would be so much joy to be found in such a basic function?",
+		"function": "x/y"
+	},
+	{
+		"image": "x over y^2 [sf.1].png",
+		"type": "sf,n",
+		"title": "The Sphynx-like slope fields of \\( \\frac{x}{y^2} \\)",
+		"body": "The perfect symmetry flavor of this piece hints at the ultra-conservative religious works of old.",
+		"function": "x/y/y"
+	},
+	{
+		"image": "x^2 over y [sf.2].png",
+		"type": "sf,n",
+		"title": "A glimmer of hope at the origin of \\( \\frac{x^2}{y} \\)",
+		"body": "The slightly off-center framing of the vertical element at the bottom of the piece represents the the human condition's intrinsic imperfection&mdash;superseded by the dawn glinted above, in the singularity at the origin.",
+		"function": "x*x/y"
+	},
+	{
+		"image": "x^2 over y [sf.3].png",
+		"type": "sf,n",
+		"title": "Dramatic dawn on the rooftop of \\( \\frac{x^2}{y} \\)",
+		"body": "This powerful image brings into focus the harmoniously asymmetrical dynamic between positive and negative, manhood and womanhood, yin and yang, love and nerds.",
+		"function": "x*x/y"
+	},
+	{
+		"image": "x^3 over y [sf.1].png",
+		"type": "sf,n",
+		"title": "A lazy dawn on the slope fields of \\( \\frac{x^3}{y} \\)",
+		"body": "This deconstructive/reconstructive piece is probably the pinnacle of the artist's weekendlong obsession with the artform. This ambivalent work builds on the drama of previous works such as the exploration of the slope fields in \\( \\frac{x}{y} \\) and \\( \\frac{x^2}{y} \\), introducing new inflection points in the geometry. On the other hand the previous works, with less dramatic exponents, used dramatic viewpoints and color palettes, whereas this more dramatic geometry employs a toned-down palette inspired by the old Flemish masters. Truly inspiring.",
+		"function": "x*x*x/y"
+	},
+	{
+		"image": "x^3 over y [sf.2].png",
+		"type": "sf,n",
+		"title": "An ominous, modernist rendering of the slope near the origin of \\( \\frac{x^3}{y} \\)",
+		"body": "Combining old functions with new techniques and aesthetics, this work marks the artist's daring exploration into Aerialod's LOD setting (Level Of Detail)",
+		"function": "x*x*x/y"
+	}
+]

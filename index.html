@@ -19,9 +19,8 @@
 		<!-- /jQuery -->
 		
 		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 		<!-- /Bootstrap -->
 		
 		<!-- MathJax -->
@@ -56,7 +55,7 @@ $(function() {
 				$("<p></p>")
 					.html(item.body)
 					.appendTo($caption);
-				$(content).addClass("item").append($image).append($caption).appendTo("#gallery-carousel-inner");
+				$(content).addClass("carousel-item").append($image).append($caption).appendTo("#gallery-carousel-inner");
 				
 				const indicator = document.createElement("li");
 				const $indicator = $(indicator);
@@ -96,12 +95,12 @@ $(function() {
 			<div id="gallery-carousel-inner" class="carousel-inner"></div>
 			
 			<!-- Controls -->
-			<a class="left carousel-control" href="#gallery-carousel" role="button" data-slide="prev"  onclick="$('#gallery-carousel').carousel('prev')">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<a class="carousel-control-prev" href="#gallery-carousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a>
-			<a class="right carousel-control" href="#gallery-carousel" role="button" data-slide="next"  onclick="$('#gallery-carousel').carousel('next')">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<a class="carousel-control-next" href="#gallery-carousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
 		</div>

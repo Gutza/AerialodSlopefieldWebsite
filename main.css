@@ -1,7 +1,29 @@
-html, body {
+body {
 	font-family: 'Old Standard TT', serif;
+}
+h1 {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 36pt;
+	background: transparent;
+	color: white;
+	background-color: #262626;
+	margin: 0px;
+	padding: 1em;
+	margin-bottom: 0.1em;
+}
+h2 {
+	font-weight: bold;
+	font-size: 28pt;
+	margin: 1em 0px 0.5em 0px;
+	border-bottom: 0.1em solid black;
 }
 h3 {
 	font-size: 24pt;
+	font-style: italic;
+}
+a {
+	text-decoration: underline;
+	color: #005;
 	font-style: italic;
 }

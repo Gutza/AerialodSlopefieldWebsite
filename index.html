@@ -31,11 +31,18 @@
 
 <script>
 // TODO: Check all raw/normalized types in the JSON!
-// TODO: Randomize the order!
+// TODO: Randomize the order
 // TODO: Add author and date
 $(function() {
+	var galleryUrl = "gallery.json";
+
+	// Hack for debugging locally
+	if ("file:" == location.protocol) {
+		galleryUrl = "https://gutza.github.io/AerialodSlopefieldWebsite/gallery.json";
+	}
+
 	$
-		.get("gallery.json")
+		.get(galleryUrl)
 		.done(function(data) {
 			var i = -1;
 			data.forEach((item) => {
@@ -86,6 +93,9 @@ $(function() {
 </script>
 	</head>
 	<body>
+	<main role="main">
+	<h1>Aerialod Slopefield</h1>
+	<section>
 		<div id="gallery-carousel" class="carousel slide" data-ride="carousel">
 
 			<!-- Indicators -->
@@ -104,5 +114,25 @@ $(function() {
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
+	</section>
+	<section class="container">
+		<h2>About</h2>
+		<p>This is the main website for <a href="https://github.com/Gutza/AerialodSlopefield">Aerialod Slopefield</a>, a tool which creates virtual landscapes
+		based on mathematical functions. You can then load these in <a href="https://ephtracy.github.io/index.html?page=aerialod">Aerialod</a> in order to
+		generate images like the ones above.</p>
+		
+		<p>These are two separate tools. <b>Aerialod Slopefield</b> is a command-line tool which only creates the landscapes – but you can't visualise
+		the files without <b>Aerialod</b>, which is a wonderful rendering engine which also provides a graphical user interface.
+		Moreover, <b>Aerialod Slopefield</b> is also released separately, by a different author, and under a different license from <b>Aerialod</b>.
+		Specifically, <b>Aerialod Slopefield</b> (the tool you're looking at now) is a really simple, open source (MIT license) tool written by myself,
+		<a href="https://twitter.com/Gutzas">Bogdan Stăncescu</a>. On the other hand, <b>Aerialod</b> (the renderer needed to actually generate the images)
+		is a free (as in free beer), closed source tool written by <a href="https://twitter.com/ephtracy">@ephtracy</a>.</p>
+	</section>
+	<section class="container">
+		<h2>Quickstart</h2>
+		<p>I honestly believe both tools are intuitive enough for someone who understands the underlying math and technology that you could generate
+		your first rendering 15 minutes from now. Start here: <a href="https://github.com/Gutza/AerialodSlopefield">Aerialod Slopefield</a>.</p>
+	</section>
+	</main>
 	</body>
 </html>
